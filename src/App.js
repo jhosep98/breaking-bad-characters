@@ -1,7 +1,14 @@
 import React from "react";
+import { Characters } from "./components/Characters";
+import { Quotes } from "./components/Quotes";
 
 function App() {
-  return <div className="App">hello world</div>;
+  return (
+    <>
+      <Quotes />
+      <Characters />
+    </>
+  );
 }
 
 export default App;
